@@ -1,4 +1,4 @@
-/* eslint-disable camelcase */
+
 exports.up = (pgm) => {
   pgm.createTable('products', {
     id: {
@@ -19,8 +19,7 @@ exports.up = (pgm) => {
     },
   });
 };
-  
+
 exports.down = (pgm) => {
   pgm.dropTable('products');
 };
-  
