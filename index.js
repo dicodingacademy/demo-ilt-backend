@@ -1,3 +1,5 @@
+// Source code for demo web server with Native
+
 // load http module
 const http = require('http');
 
