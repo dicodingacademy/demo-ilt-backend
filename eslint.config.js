@@ -1,5 +1,5 @@
-import daStyle from 'eslint-config-dicodingacademy';
+const daStyle = require('eslint-config-dicodingacademy');
 
-export default [
+module.exports = [
   daStyle,
 ];
