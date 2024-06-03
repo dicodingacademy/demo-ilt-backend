@@ -6,7 +6,7 @@ exports.up = (pgm) => {
       primaryKey: true,
     },
     name: {
-      type: 'TEXT',
+      type: 'VARCHAR(50)',
       notNull: true,
     },
     price: {
@@ -14,7 +14,7 @@ exports.up = (pgm) => {
       notNull: true,
     },
     category: {
-      type: 'TEXT',
+      type: 'VARCHAR(50)',
       notNull: true,
     },
   });
