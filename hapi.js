@@ -1,4 +1,5 @@
-// load Hapi module
+// Source code for demo web server with Hapi
+
 const Hapi = require('@hapi/hapi');
 
 (async () => {
